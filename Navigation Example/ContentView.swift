@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            Text("Hello, world!")
+            Text("Hello, world!\nThis is my navigation example!")
                 .navigationTitle("Navigation Example")
                 .navigationBarTitleDisplayMode(.inline)
                 .offset(y: -60)
