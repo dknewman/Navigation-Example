@@ -25,9 +25,13 @@ struct RedOneView: View {
                         destination: BlueTwoView(),
                         label: {
                             Text("Next Screen")
+                                .bold()
+                                .frame(width: 280, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .foregroundColor(.white)
+                                .background(Color.blue)
+                                .cornerRadius(15)
                         })
                         .offset(y: 100)
-         
                 }
             })
             
