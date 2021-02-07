@@ -11,12 +11,12 @@ import SwiftUI
 struct Navigation_ExampleApp: App {
     init(){
         
-        UINavigationBar.appearance().barTintColor = .systemBlue
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+//        UINavigationBar.appearance().barTintColor = .systemBlue
+//        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
     }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RedOneView()
         }
     }
 }
